@@ -37,7 +37,7 @@
 3. **นำเข้าฐานข้อมูล (Import):**
    * นำไฟล์ `.sql` ในโปรเจกต์นี้ไป Import เข้าฐานข้อมูล หรือรันคำสั่ง SQL สร้างตาราง `sensor_log` และ `control_status`
 4. **ติดตั้งไฟล์เว็บไซต์:**
-   * นำไฟล์ PHP ทั้งหมดไปวางไว้ในโฟลเดอร์ `C:\xampp\htdocs\smart_pond_project\`
+   * สร้างFolderและนำไฟล์ PHP ทั้งหมดไปวางไว้ในโฟลเดอร์ `C:\xampp\htdocs\smart_pond_project\`
 5. **หาหมายเลข IP ของเซิร์ฟเวอร์:**
    * เปิด Command Prompt (cmd) พิมพ์คำสั่ง `ipconfig` จดค่า **IPv4 Address** ไว้ใช้ในขั้นตอนต่อไป
 
