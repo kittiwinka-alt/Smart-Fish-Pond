@@ -1,0 +1,8 @@
+CREATE TABLE sensor_log (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    temperature FLOAT NOT NULL,
+    light_level INT NOT NULL,
+    fan_status VARCHAR(10),
+    light_status VARCHAR(10),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

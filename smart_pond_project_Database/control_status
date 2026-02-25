@@ -1,0 +1,7 @@
+CREATE TABLE control_status (
+    id INT(1) PRIMARY KEY,
+    system_mode VARCHAR(10) DEFAULT 'AUTO',
+    fan_cmd VARCHAR(10) DEFAULT 'OFF',
+    light_cmd VARCHAR(10) DEFAULT 'OFF'
+);
+INSERT INTO control_status (id, system_mode, fan_cmd, light_cmd) VALUES (1, 'AUTO', 'OFF', 'OFF');
